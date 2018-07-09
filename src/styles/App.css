@@ -1,0 +1,115 @@
+[data-reactroot] {}
+/*added later*/
+html,
+body {
+  height: 100%;
+  margin: 0
+}
+.app-box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  position: absolute;
+  width: 100% !important;
+}
+.box .app-row.header {
+  flex: 0 1 auto;
+  /* The above is shorthand for:
+  flex-grow: 0,
+  flex-shrink: 1,
+  flex-basis: auto
+  */
+}
+
+.app-box .app-row.content {
+  flex: 1 1 auto;
+  overflow-x: hidden;
+  /*align-items: center; */
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+}
+
+.app-box .app-row.footer {
+  width: 100%;
+  flex: 0 1 auto;
+  height: 56px;
+}
+/*added later*/
+.login-button {
+  min-width: 200px !important;
+}
+
+
+/* input form*/
+div#file{
+  color: rgba(0, 0, 0, 0.87);
+  background-color: rgb(255, 255, 255);
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  border-radius: 2px;
+  display: inline-block;
+  min-width: 88px;
+  margin-top: 14px;
+}
+.inputWrapper > label {
+  border: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: Roboto, sans-serif;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  font-size: inherit;
+  font-weight: inherit;
+  position: relative;
+  height: 36px;
+  line-height: 36px;
+  width: 100%;
+  border-radius: 2px;
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.inputWrapper {
+    margin: auto;
+    height: 32px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    /*Using a background color, but you can use a background image to represent a button*/
+    background-color: #DDF;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: rgb(255, 255, 255);
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+    border-radius: 2px;
+    display: inline-block;
+    min-width: 88px;
+    margin-top: 14px;
+    padding: 0 10px;
+}
+.fileInput {
+    cursor: pointer;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    /*This makes the button huge. If you want a bigger button, increase the font size*/
+    font-size:50px;
+    /*Opacity settings for all browsers*/
+    opacity: 0;
+    -moz-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0)
+}

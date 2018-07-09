@@ -1,0 +1,30 @@
+{
+  "name": "street",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "es6-promise": "^4.1.1",
+    "firebase": "^4.4.0",
+    "isomorphic-fetch": "^2.2.1",
+    "material-ui": "^0.19.4",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-google-maps": "^8.3.2",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "recompose": "^0.25.1",
+    "redux": "^3.7.2",
+    "redux-persist": "^5.5.0",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.74.2"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

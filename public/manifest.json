@@ -1,0 +1,16 @@
+{
+  "short_name": "Street",
+  "name": "Ending Homelessness, One Street at a Time",
+  "icons": [
+    {
+      "src": "street.png",
+      "sizes": "324x324",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "display": "fullscreen",
+  "orientation": "portrait"
+}
